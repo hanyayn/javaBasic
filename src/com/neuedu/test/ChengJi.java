@@ -1,8 +1,14 @@
 package com.neuedu.test;
 
+import java.util.Scanner;
+
 public class ChengJi {
     public static void main(String[] args) {
-        int a=45;
+        System.out.println("请输入一个成绩数：");
+        Scanner input=new Scanner(System.in);//控制台能输入字
+        int a=input.nextInt();
+
+
         if(a>=90){
             System.out.println("A");
         }else if(a>=60&&a<90){

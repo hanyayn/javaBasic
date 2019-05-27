@@ -7,10 +7,12 @@ public class JiOuShu {
         int sum2=0;//奇数
         for(int i=1; i<=100; i++){
             if(i%2==0){
-                sum1 += i;
+              //  sum1 += i;
+                sum1=sum1+i;
 
             }else if(i%2 == 1){
-                sum2 += i;
+              //  sum2 += i;
+                sum2=sum1+i;
             }
 
         }

@@ -8,7 +8,7 @@ public class ShuiXianHua {
             int b=i%100/10;//十位
             int c=i%10;//个位
             if(i==a*a*a+b*b*b+c*c*c){
-                System.out.println("水仙花数"+a+b+c);
+                System.out.println(i);
             }else {
                 continue;
             }
