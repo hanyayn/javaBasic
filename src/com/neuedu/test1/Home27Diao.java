@@ -2,7 +2,24 @@ package com.neuedu.test1;
 
 public class Home27Diao {
     public static void main(String[] args) {
-        //长方形无参
+        HomeWork27 homeWork27=new HomeWork27();
+        homeWork27.zhouchang(4);
+        System.out.println(homeWork27);
+
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+       /* //长方形无参
         System.out.println("无参的长方形");
         HomeWork27   wucan=new HomeWork27();
         wucan.HomeWork271();
@@ -15,7 +32,6 @@ public class Home27Diao {
         HomeWork27   liagecanshu=new HomeWork27();
         liagecanshu.HomeWork273(5,6);
     }
+*/
 
 
-
-}

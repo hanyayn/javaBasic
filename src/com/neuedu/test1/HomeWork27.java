@@ -1,36 +1,95 @@
 package com.neuedu.test1;
 
 public class HomeWork27 {
-    //无参
-    public void HomeWork271(){
-        int width=1;
-        int height=1;
-        System.out.println("周长为："+(width+height)*2);
-        System.out.println("面积为："+width*height);
-    }
-    //1个参数
-    public void HomeWork272(int a){
-        int  width=a;
-        int  height=a;
-        System.out.println("周长为："+(width+height)*2);
-        System.out.println("面积为："+width*height);
-    }
-    //2个参数
-    public  void    HomeWork273(int  b,int   c){
-        int  width=b;
-        int  height=c;
-        System.out.println("周长为："+(width+height)*2);
-        System.out.println("面积为："+width*height);
+    private int height = 1;
+    private int width = 1;
+
+    public void setWidth(int width1) {
+        width = width1;
     }
 
-    /*int width;
-    int height;
-    public void   space1(int height) {
-        int      space1=width*height;
-        int      girth1=(width+height)*2;
-        System.out.println("面积为："+space1);
-        System.out.println("周长为："+girth1);*/
+    public int getWidth() {
+        return width;
+    }
+
+    public void setHeight(int height1) {
+        height = height1;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public String toString() {
+        return "宽" + width + "高" + height;
+
+    }
+
+
+        public void zhouchang(){
+        int reslut = (height + width) * 2;
+            System.out.println(reslut);
+    }
+
+    public void zhouchang(int width1) {
+        width=width1;
+        int reslut = (height + width) * 2;
+        System.out.println(reslut);
+    }
+
+    public void zhouchang(int width1,int height1) {
+        width=width1;
+        height=height1;
+        int reslut = (height + width) * 2;
+        System.out.println(reslut);
+    }
+
+    }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//27号讲的方法
+    /*public void zhouchang() {
+        int reslut = (height + width) * 2;
+    }
+
+    public void zhouchang(int width1) {
+        width=width1;
+        int reslut = (height + width) * 2;
+    }
+
+    public void zhouchang(int width1,int height1) {
+        width=width1;
+        height=height1;
+        int reslut = (height + width) * 2;
+    }
+    public void print_rec(){
+        System.out.println();
+    }
+
+    public void area() {
+        int reslut = height * width;
+    }*/
+
+
