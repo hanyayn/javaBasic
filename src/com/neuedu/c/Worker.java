@@ -51,4 +51,5 @@ public class Worker {
         System.out.println(num*salary);
 
     }
+
 }
