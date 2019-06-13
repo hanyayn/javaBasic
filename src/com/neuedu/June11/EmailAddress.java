@@ -9,7 +9,8 @@ public class EmailAddress {
     private String provence;
     private String country;
 
-    public EmailAddress(String xingming, String jiedao, String city, String provence, String country) {
+    public EmailAddress(String xingming, String jiedao,
+                        String city, String provence, String country) {
         this.xingming = xingming;
         this.jiedao = jiedao;
         this.city = city;
@@ -59,6 +60,7 @@ public class EmailAddress {
 
     @Override
     public String toString() {
-        return "客户邮件地址为："+getXingming()+getJiedao()+getCity()+getProvence()+getCountry();
+        return "客户邮件地址为："
+                +getXingming()+getJiedao()+getCity()+getProvence()+getCountry();
     }
 }
